@@ -4,13 +4,10 @@
   "description": "JWT Authentication, Redux Toolkit, bcrypt setup",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon backend/server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \" npm run server \" \" npm run client \"",
-    "build":"cd frontend && npm install && npm run build"
-
+    "dev": "concurrently \" npm run server \" \" npm run client \""
   },
   "type": "module",
   "author": "",
